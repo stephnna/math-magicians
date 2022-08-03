@@ -1,7 +1,7 @@
 :root {
   --general: white;
   --primary: lightgrey;
-  --secondary: rgb(255, 174, 0);
+  --secondary: #ff8c00;
   --tertiary: grey;
 }
 
