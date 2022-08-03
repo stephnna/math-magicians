@@ -9,7 +9,7 @@ Math magician app
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
-Read a random math-related quote.
+Read a random math-relatewd quote.
 
 ## Built With
 
@@ -25,12 +25,12 @@ React
 ## Getting started
 To get a local copy up and running follow these simple example steps:
 
-## Authors
+## Author
+
 👤 Ezea Stephen Nnabuike
 - GitHub: [@stephnna](https://github.com/stephnna)
 - Twitter: [@stephnna](https://twitter.com/stephnna)
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/stephen-nnabuike-ezea-143b97170/)
-
 
 ## Prerequisites
 - Have a good knowledge on how to parse UI designs
