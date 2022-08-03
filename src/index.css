@@ -1,15 +1,17 @@
-:root{
+:root {
   --general: white;
   --primary: lightgrey;
   --secondary: rgb(255, 174, 0);
   --tertiary: grey;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .buttons-container {
   padding: 0;
   margin: 0;
@@ -18,7 +20,7 @@
   grid-template-rows: repeat(6, 64px);
 }
 
-body{
+body {
   background-color: var(--general);
 }
 
@@ -32,39 +34,46 @@ body{
 }
 
 .display {
- background-color: var(--tertiary);
-  grid-column-start: 1;
-  grid-column-end: 5;
+  background-color: var(--tertiary);
+  grid-area: 1 / 1 / 2 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: var(--general);
+  padding-right: 3px;
 }
 
-
-.buttons-container  > .buttons, .display {  
-  margin: 1px;  
-  font-size: 20px;   
+.buttons-container > .buttons,
+.display {
+  margin: 1px;
+  font-size: 20px;
   transition: 0.4s;
   font-weight: 700;
 }
 
-.buttons-container  > .buttons { 
+.buttons-container > .buttons {
   appearance: none;
-  border:  none;
-  outline:  none;
-  cursor: pointer;  
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-#btn11 { grid-area: 3 / 1 / 4 / 2 }
-#btn10 { grid-area: 3 / 2 / 4 / 3 }
-#btn9 { grid-area: 3 / 3 / 4 / 4 }
-#btn14 { grid-area: 4 / 1 / 5 / 2 }
-#btn13 { grid-area: 4 / 2 / 5 / 2 }
-#btn12 { grid-area: 4 / 3 / 5 / 4 }
-#btn17 { grid-area: 5 / 1 / 6 / 2 }
-#btn16 { grid-area: 5 / 2 / 6 / 3 }
-#btn15 { grid-area: 5 / 3 / 6 / 3 }
-#btn18 { grid-area: 6 / 1 / 6 / 3 }
-#btn8 { grid-area: 6 / 3 / 6 / 4 }
+#btn11 { grid-area: 3 / 1 / 4 / 2; }
+#btn10 { grid-area: 3 / 2 / 4 / 3; }
+#btn9 { grid-area: 3 / 3 / 4 / 4; }
+#btn14 { grid-area: 4 / 1 / 5 / 2; }
+#btn13 { grid-area: 4 / 2 / 5 / 2; }
+#btn12 { grid-area: 4 / 3 / 5 / 4; }
+#btn17 { grid-area: 5 / 1 / 6 / 2; }
+#btn16 { grid-area: 5 / 2 / 6 / 3; }
+#btn15 { grid-area: 5 / 3 / 6 / 3; }
+#btn18 { grid-area: 6 / 1 / 6 / 3; }
+#btn8 { grid-area: 6 / 3 / 6 / 4; }
 
-#btn3, #btn4, #btn5, #btn6, #btn7 {
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7 {
   background-color: var(--secondary);
-} 
-
+}

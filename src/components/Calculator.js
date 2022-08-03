@@ -14,8 +14,8 @@ class Calculator extends React.Component {
     return (
       <div className="App">
         <div className="buttons-container">
-          <div className="display" />
-          {this.createButtons()}
+          <div className="display">0</div>
+          <>{this.createButtons()}</>
         </div>
       </div>
     );
