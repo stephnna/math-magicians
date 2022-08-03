@@ -19,13 +19,19 @@ React
 
 ![screenshot]()
 
-
-
 ## Live Demo
 [Live demo here]()
 
 ## Getting started
 To get a local copy up and running follow these simple example steps:
+
+## Authors
+👤 Ezea Stephen Nnabuike
+- GitHub: [@stephnna](https://github.com/stephnna)
+- Twitter: [@stephnna](https://twitter.com/stephnna)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/stephen-nnabuike-ezea-143b97170/)
+
+
 ## Prerequisites
 - Have a good knowledge on how to parse UI designs
 - Have VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
