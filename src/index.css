@@ -14,7 +14,7 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 64px 64px 64px 64px;
+  grid-template-columns: 110px 110px 110px 110px;
   grid-template-rows: 64px 64px 64px 64px 64px 64px;
 }
 
@@ -43,11 +43,10 @@ body{
   margin: 1px;  
   font-size: 20px;   
   transition: 0.4s;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .buttons-container  > .buttons{ 
-  /* padding: 20px 48px; */
   appearance: none;
   border:  none;
   outline:  none;
