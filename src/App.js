@@ -1,27 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+/* eslint no-use-before-define: 0 */
 function App() {
+  const createButtons = () => {
+    const buttonArray = ['AC', '+/-', '%', '/', '*', '+', '-', '=', '.'];
+    for (let i = 0; i < 10; i += 1) {
+      buttonArray.push(i);
+    }
+    const listbuttons = buttonArray.map((item, index) => <button className="buttons" id={`btn${index}`} key={item.toString()} type="button">{item}</button>);
+    return listbuttons;
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="buttons-container">
+        <div className="display" />
+        {createButtons()}
+      </div>
     </div>
   );
 }
