@@ -33,6 +33,38 @@ body {
   align-items: center;
 }
 
+.home-main-nav,
+.calculator-link-h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-main-nav,
+.main-quote {
+  align-items: center;
+}
+
+.home-main-nav,
+.home-main-h2,
+.calculator-link-h3 {
+  margin: 0 32px 16px;
+}
+
+.home-main-p {
+  margin: 16px 32px;
+}
+
+.main-quote {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.calculator-link-h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .display {
   background-color: var(--tertiary);
   grid-area: 1 / 1 / 2 / 5;
