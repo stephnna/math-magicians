@@ -17,7 +17,7 @@ React
 
 ## Screenshot
 
-![screenshot]()
+![screenshot](./public/calculator-sreenshot.png)
 
 ## Live Demo
 [Live demo here]()
