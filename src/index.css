@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --general: white;
+  --primary: lightgrey;
+  --secondary: #ff8c00;
+  --tertiary: grey;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons-container {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 110px);
+  grid-template-rows: repeat(6, 64px);
+}
+
+body {
+  background-color: var(--general);
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main-nav,
+.calculator-link-h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-main-nav,
+.main-quote {
+  align-items: center;
+}
+
+.home-main-nav,
+.home-main-h2,
+.calculator-link-h3 {
+  margin: 0 32px 16px;
+}
+
+.home-main-p {
+  margin: 16px 32px;
+}
+
+.main-quote {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.calculator-link-h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.display {
+  background-color: var(--tertiary);
+  grid-area: 1 / 1 / 2 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: var(--general);
+  padding-right: 3px;
+}
+
+.buttons-container > .buttons,
+.display {
+  margin: 1px;
+  font-size: 20px;
+  transition: 0.4s;
+  font-weight: 700;
+}
+
+.buttons-container > .buttons {
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#btn11 { grid-area: 3 / 1 / 4 / 2; }
+#btn10 { grid-area: 3 / 2 / 4 / 3; }
+#btn9 { grid-area: 3 / 3 / 4 / 4; }
+#btn14 { grid-area: 4 / 1 / 5 / 2; }
+#btn13 { grid-area: 4 / 2 / 5 / 2; }
+#btn12 { grid-area: 4 / 3 / 5 / 4; }
+#btn17 { grid-area: 5 / 1 / 6 / 2; }
+#btn16 { grid-area: 5 / 2 / 6 / 3; }
+#btn15 { grid-area: 5 / 3 / 6 / 3; }
+#btn18 { grid-area: 6 / 1 / 6 / 3; }
+#btn8 { grid-area: 6 / 3 / 6 / 4; }
+
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7 {
+  background-color: var(--secondary);
 }
