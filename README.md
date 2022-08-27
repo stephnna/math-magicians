@@ -20,7 +20,7 @@ React
 ![screenshot](./public/calculator-sreenshot.png)
 
 ## Live Demo
-[Live demo here](https://math-calculator-magician.netlify.app/)
+[Live demo here](https://stephen-math-magician.netlify.app/)
 
 ## Getting started
 To get a local copy up and running follow these simple example steps:
